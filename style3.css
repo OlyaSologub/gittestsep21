@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.xxx {
+    background: blue;
+    border: 10px solid darkblue;
+    border-radius: 50px;
+}
+
+.target {
+    background: yellow;
+    border: 10px dotted darkblue;
+}

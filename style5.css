@@ -1,0 +1,168 @@
+:root {
+    color: blue;
+    color: aqua;
+    color: lightblue;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.blocks {
+    background-color: aqua;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 5px;
+    list-style: none;
+}
+
+.blocks__link {
+    width: 25px;
+    height: 5px;
+    background-color: blue;
+}
+
+.header {
+    background-color: aqua;
+    color: black;
+}
+
+.header__top {
+    padding: 10px 0 20px;
+    background-color: lightblue;
+}
+
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+}
+
+.nav__item a:hover {
+    color: black;
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    padding: 100px 0;
+}
+
+.header__text {
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+}
+
+.header__main button {
+    margin-top: 25px;
+    background-color: darkblue;
+    width: 300px;
+    color: azure;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.products {
+    padding: 100px;
+    background-color: lightblue;
+}
+
+.products__tittle {
+    align-items: center;
+}
+
+.products_grid {
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.products__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.products__item {
+    flex-grow: 1;
+}
+
+.products__item p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.products__item_img {
+    height: 200px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.view {
+    background-color: blue;
+    padding: 50px 0;
+}
+
+.view__grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view_card {
+    width: 30%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: black;
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+.view_card:hover {
+    border-color: aqua;
+}
+
+.view__name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.view__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
