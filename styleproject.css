@@ -1,16 +1,14 @@
 .header__menu {
+    width: 1920px;
     height: 36px;
-    max-width: 100%;
-    background-color: darkblue;
+    background: black;
+}
+.nav__item {
+    display: inline-block;
+    margin-right: 283px;
 }
 
-.nav {
-    display: flex;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
+.nav__item a {
+    text-decoration: none;
+    font-size: 14px;
 }
